@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class ChkOddEven {
     public static String oddEven(){
         String response = "";
+        Scanner scanner = new Scanner(System.in);
+
 
 
 
