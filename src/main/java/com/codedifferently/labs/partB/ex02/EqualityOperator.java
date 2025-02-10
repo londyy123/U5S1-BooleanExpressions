@@ -7,7 +7,11 @@ public class EqualityOperator {
         String num2 = "5";
 
         /* Your code goes here*/
-
+        if (num1.equals(num2)) {
+            response+= ("Same number");
+        }  else {
+            response+= ("Different number");
+        }
 
         return response;
     }
